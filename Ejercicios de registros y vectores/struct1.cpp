@@ -1,3 +1,6 @@
+// En el ejemplo se piden dos fechas, se agrupan los datos de cada una,
+// se las convierte a AAAAMMDD y se las compara
+
 #include <iostream>
 using namespace std;
 
