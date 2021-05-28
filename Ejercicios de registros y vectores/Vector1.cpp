@@ -8,8 +8,9 @@ void mostrarVector(tVector v);
 
 int main(int argc, char const *argv[])
 {
+    // Se crea el vector usando el tipo creado
     tVector vector;
-    // Se crea el vector
+
     for (int i = 0; i < 10; i++)
     {
         vector[i] = 2 * (i + 1);
@@ -18,6 +19,8 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+//La función "mostrarVector" recibe el vector, lo recorre y va mostrando el índice
+// (la posición de cada celda) y el contenido de la celda
 void mostrarVector(tVector v)
 {
     cout << "Los primeros 10 numeros pares:" << endl
