@@ -2,7 +2,6 @@
 indicar cuántos superan el promedio. Promediar hasta 60 edades */
 
 #include <iostream>
-//#include <vector>
 
 using namespace std;
 
@@ -52,6 +51,7 @@ int pedirInfoPersonas(tVectorPersonas vector)
             break;
 
         vector[cantidadElementos].edad = edad;
+
         cout << "Ingresar nombre" << endl;
         cin >> vector[cantidadElementos].name;
         cantidadElementos++;
